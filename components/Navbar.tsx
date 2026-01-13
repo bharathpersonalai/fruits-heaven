@@ -16,6 +16,15 @@ const Navbar: React.FC<NavbarProps> = ({ cart }) => {
     setIsMobileMenuOpen(false);
   }, [location]);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }, [isMobileMenuOpen]);
+
   // Trigger reveal animations on scroll
   useEffect(() => {
     const revealElements = document.querySelectorAll('.reveal-left, .reveal-right, .reveal-up');
