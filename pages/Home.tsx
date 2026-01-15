@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Page } from '../types';
+import MenuPopup from '../components/MenuPopup';
 
 const Home: React.FC = () => {
   return (
     <>
+      <MenuPopup />
       {/* Hero Section */}
       <section id="home" className="hero">
         <div className="container hero-container">

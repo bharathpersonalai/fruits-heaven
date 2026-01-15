@@ -34,7 +34,7 @@ const WhyUs: React.FC = () => {
       {/* Page Header */}
       <header className="page-header">
         <div className="container fade-in">
-          <h1>Why Fruits Heaven?</h1>
+          <h1>Why Juicy?</h1>
           <p>The philosophy behind every drop we serve.</p>
         </div>
       </header>

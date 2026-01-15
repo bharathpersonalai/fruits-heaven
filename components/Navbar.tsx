@@ -57,7 +57,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart }) => {
       <div className="container nav-container">
         <NavLink to={Page.HOME} className="logo-link">
           <img src="/logo.jpg" alt="Fruits Heaven Logo" className="nav-logo" />
-          <span className="brand-name">Fruits Heaven</span>
+          <span className="brand-name">Juicy Cold Pressed</span>
         </NavLink>
         <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
           <li><NavLink to={Page.HOME}>Home</NavLink></li>
