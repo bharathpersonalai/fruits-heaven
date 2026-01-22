@@ -16,7 +16,7 @@ const products: Product[] = [
   {
     id: '1',
     name: 'Citrus Sunrise',
-    price: '£5.99',
+    price: '₹80',
     description: 'Fresh Oranges, a hint of Ginger, and Turmeric.',
     image: '/orange.png',
     tags: ['Immunity', 'Energy'],
@@ -24,7 +24,7 @@ const products: Product[] = [
   {
     id: '2',
     name: 'Green Detox',
-    price: '£6.99',
+    price: '₹120',
     description: 'Cucumber, Mint, Spinach, Apple, and Lemon.',
     image: '/green.png',
     tags: ['Cleanse', 'Hydrate'],
@@ -32,7 +32,7 @@ const products: Product[] = [
   {
     id: '3',
     name: 'Ruby Elixir',
-    price: '£7.99',
+    price: '₹150',
     description: 'Pure Pomegranate, Beetroot, and Carrot.',
     image: '/red.png',
     tags: ['Heart Health', 'Iron'],
@@ -40,7 +40,7 @@ const products: Product[] = [
   {
     id: '4',
     name: 'Tropical Bliss',
-    price: '£6.50',
+    price: '₹100',
     description: 'Pineapple, Mango, and Coconut Water.',
     image: '',
     tags: ['Sweet', 'Tropical'],

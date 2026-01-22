@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container footer-content">
         <div className="footer-brand">
           <img src="/logo.jpg" alt="Logo" className="footer-logo" />
-          <h3>Juicy Cold Pressed</h3>
+          <h3>Fruits Heaven</h3>
         </div>
         <div className="footer-links">
           <h4>Quick Links</h4>
@@ -19,11 +19,11 @@ const Footer: React.FC = () => {
         <div className="footer-address">
           <h4>Visit Us</h4>
           <p style={{ color: '#adb5bd', fontSize: '0.9rem', marginBottom: '0.5rem' }}>
-            📍 123 Manchester, UK
+            📍 123, Rajahmundry
           </p>
           <p style={{ color: '#adb5bd', fontSize: '0.9rem', marginBottom: '1.5rem' }}>
             📞 +123 456 7890<br />
-            ✉️ hello@juicycoldpressed.com
+            ✉️ hello@fruitsheaven.com
           </p>
           <div className="social-icons">
             <a href="#" aria-label="Instagram">
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="footer-bottom center">
-        <p>&copy; 2026 Juicy Cold Pressed. All Rights Reserved.</p>
+        <p>&copy; 2026 Fruits Heaven. All Rights Reserved.</p>
       </div>
     </footer>
   );

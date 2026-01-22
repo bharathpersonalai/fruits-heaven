@@ -77,7 +77,7 @@ const OrderNow: React.FC = () => {
                   <div className="info-icon">📍</div>
                   <div>
                     <h4>Location</h4>
-                    <p>123 Manchester, UK</p>
+                    <p>123, Rajahmundry</p>
                   </div>
                 </div>
 
@@ -85,7 +85,7 @@ const OrderNow: React.FC = () => {
                   <div className="info-icon">📞</div>
                   <div>
                     <h4>Phone</h4>
-                    <p>+123 456 7890</p>
+                    <p>+91 1234567890</p>
                   </div>
                 </div>
 
@@ -93,7 +93,7 @@ const OrderNow: React.FC = () => {
                   <div className="info-icon">✉️</div>
                   <div>
                     <h4>Email</h4>
-                    <p>hello@juicycoldpressed.com</p>
+                    <p>hello@fruitsheaven.com</p>
                   </div>
                 </div>
               </div>
